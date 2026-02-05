@@ -3,345 +3,203 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/awesome-ai-oran?style=social)](https://github.com/YOUR_USERNAME/awesome-ai-oran)
 
-> A curated list of **AI/ML applications in Open Radio Access Networks (O-RAN)**, including xApps, rApps, RIC architectures, and intelligent network automation for 5G/6G systems.
+> A curated list of **AI/ML applications in Open Radio Access Networks (O-RAN)**, including xApp/rApp development, network slicing, resource management, and intelligent RAN automation.
 
 🌐 **[中文版](README_CN.md)** | **English**
 
+If you find this repository useful, please consider citing and ⭐ starring!
+
 ---
 
-## Contents
+## Table of Contents
 
 - [📚 Survey Papers](#-survey-papers)
-- [🏗️ O-RAN Architecture](#️-o-ran-architecture)
-- [🔬 Research Topics](#-research-topics)
-  - [xApp Development](#xapp-development)
-  - [rApp Development](#rapp-development)
-  - [Resource Management](#resource-management)
-  - [Traffic Steering & Load Balancing](#traffic-steering--load-balancing)
-  - [Spectrum Management](#spectrum-management)
-  - [Network Slicing](#network-slicing)
-  - [Energy Efficiency](#energy-efficiency)
-  - [Security & Anomaly Detection](#security--anomaly-detection)
-  - [QoS Optimization](#qos-optimization)
-  - [Handover Optimization](#handover-optimization)
-  - [Beam Management](#beam-management)
-  - [Federated Learning](#federated-learning)
-  - [Large Language Models](#large-language-models)
-- [🛠️ Tools & Platforms](#️-tools--platforms)
-- [📊 Datasets & Testbeds](#-datasets--testbeds)
-- [🏆 Competitions & Challenges](#-competitions--challenges)
-- [📖 Standards & Specifications](#-standards--specifications)
-- [🎓 Research Groups](#-research-groups)
-- [📅 Conferences & Journals](#-conferences--journals)
+- [🔧 ML-based xApps](#-ml-based-xapps)
+- [🍰 Network Slicing with DRL](#-network-slicing-with-drl)
+- [🔗 Graph Neural Networks](#-graph-neural-networks)
+- [🔄 Transfer Learning](#-transfer-learning)
+- [🤖 LLM & Foundation Models](#-llm--foundation-models)
+- [🛡️ Security & Anomaly Detection](#️-security--anomaly-detection)
+- [🪞 Digital Twin](#-digital-twin)
+- [🛠️ Tools & Testbeds](#️-tools--testbeds)
 
 ---
 
 ## 📚 Survey Papers
 
 | Year | Title | Venue | Link |
-|------|-------|-------|------|
-| 2024 | A Survey on Machine Learning for Open RAN: Architecture, Use Cases, and Challenges | IEEE Communications Surveys & Tutorials | [Link](#) |
-| 2024 | Intelligent O-RAN for 6G: Architecture, AI/ML Workflow, and Research Directions | IEEE Network | [Link](#) |
-| 2023 | Open RAN: A Survey on Architecture, Challenges, and Research Directions | IEEE Access | [Link](https://ieeexplore.ieee.org/document/10123456) |
-| 2023 | Machine Learning in O-RAN: Architecture, Deployment, and Use Cases | IEEE Communications Magazine | [Link](#) |
-| 2022 | Intelligence and Learning in O-RAN for Data-Driven NextG Cellular Networks | IEEE Communications Magazine | [Link](https://ieeexplore.ieee.org/document/9789012) |
-| 2022 | AI/ML Workflow for O-RAN: A Survey | IEEE Open Journal of the Communications Society | [Link](#) |
-
-📖 For detailed literature by topic and year, see **[survey.md](survey.md)**
+|:----:|-------|:-----:|:----:|
+| 2023 | ColO-RAN: Developing ML-based xApps for Open RAN | IEEE TMC | [Paper](https://doi.org/10.1109/TMC.2022.3222756) |
+| 2022 | Intelligence and Learning in O-RAN for Data-Driven NextG Cellular Networks | IEEE Commun. Mag. | [Paper](https://doi.org/10.1109/MCOM.001.2100794) |
 
 ---
 
-## 🏗️ O-RAN Architecture
+## 🔧 ML-based xApps
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    Service Management & Orchestration (SMO)      │
-│  ┌──────────────────────────────────────────────────────────┐   │
-│  │                    Non-RT RIC                            │   │
-│  │  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐    │   │
-│  │  │  rApp1  │  │  rApp2  │  │  rApp3  │  │  rAppN  │    │   │
-│  │  └─────────┘  └─────────┘  └─────────┘  └─────────┘    │   │
-│  │        AI/ML Model Training & Policy Management          │   │
-│  └────────────────────────┬─────────────────────────────────┘   │
-└───────────────────────────┼─────────────────────────────────────┘
-                            │ A1 Interface
-┌───────────────────────────┼─────────────────────────────────────┐
-│                    Near-RT RIC (10ms - 1s)                      │
-│  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐            │
-│  │  xApp1  │  │  xApp2  │  │  xApp3  │  │  xAppN  │            │
-│  └─────────┘  └─────────┘  └─────────┘  └─────────┘            │
-│        AI/ML Inference & Near-Real-Time Control                 │
-└───────────────────────────┬─────────────────────────────────────┘
-                            │ E2 Interface
-┌───────────────────────────┼─────────────────────────────────────┐
-│                    O-RAN RAN Components                         │
-│  ┌──────────┐    ┌──────────┐    ┌──────────┐                  │
-│  │   O-CU   │    │   O-DU   │    │   O-RU   │                  │
-│  └──────────┘    └──────────┘    └──────────┘                  │
-└─────────────────────────────────────────────────────────────────┘
-```
+xApps running on Near-RT RIC for intelligent network control.
 
-### Key Interfaces
+### 2025
+| Title | Authors | Venue | Link |
+|-------|---------|:-----:|:----:|
+| xApp Conflict Evaluation with Explainable ML and Causal Inference | Sharma P, et al. | NFV-SDN | [Paper](https://doi.org/10.1109/NFV-SDN66355.2025.11349452) |
+| O-RAN Intelligence Orchestration for Quality-Driven xApp Deployment | Mungari F, et al. | IEEE TMC | [Paper](https://doi.org/10.1109/TMC.2025.3527707) |
+| ML-Driven xApp for Network Slicing in 6G O-RAN | Anand D, Muntean GM | ICC Workshops | [Paper](https://doi.org/10.1109/ICCWorkshops67674.2025.11162211) |
+| RSLAQ - Robust SLA-driven QoS xApp using DRL | Yungaicela-Naula N, et al. | arXiv | [Paper](https://arxiv.org/abs/2504.09187) |
 
-| Interface | Description | AI/ML Relevance |
-|-----------|-------------|-----------------|
-| **A1** | Non-RT RIC ↔ Near-RT RIC | Policy deployment, ML model updates |
-| **E2** | Near-RT RIC ↔ O-CU/O-DU | Data collection, control actions |
-| **O1** | SMO ↔ O-RAN components | Management, configuration |
-| **O2** | SMO ↔ O-Cloud | Infrastructure management |
+### 2024
+| Title | Authors | Venue | Link |
+|-------|---------|:-----:|:----:|
+| ML-based xApp for Dynamic Resource Allocation in O-RAN | Qazzaz MMH, et al. | ICMLCN | [Paper](https://doi.org/10.1109/ICMLCN59089.2024.10625184) |
+| Enabling Reusable xApps in the ML-Driven Open RAN | Herrera JL, et al. | HPSR | [Paper](https://doi.org/10.1109/HPSR62440.2024.10635962) |
+| Low-Latency RIC and Autonomous Intelligent xAPP Generation | Lien SY, et al. | IEEE Commun. Mag. | [Paper](https://doi.org/10.1109/MCOM.001.2200907) |
+
+### 2023
+| Title | Authors | Venue | Link |
+|-------|---------|:-----:|:----:|
+| ML-based xAPP for Co-tier Interference Mitigation and QoE | Anand D, et al. | BMSB | [Paper](https://doi.org/10.1109/BMSB58369.2023.10211189) |
+
+### 2021
+| Title | Authors | Venue | Link |
+|-------|---------|:-----:|:----:|
+| Connection Management xAPP: GNN and RL Approach | Orhan O, et al. | ICMLA | [Paper](https://doi.org/10.1109/ICMLA52953.2021.00154) |
 
 ---
 
-## 🔬 Research Topics
+## 🍰 Network Slicing with DRL
 
-### xApp Development
+Deep Reinforcement Learning for RAN slicing and resource allocation.
 
-xApps run on Near-RT RIC for real-time network control (10ms - 1s latency).
+### 2026
+| Title | Authors | Venue | Link |
+|-------|---------|:-----:|:----:|
+| Near-Real-Time Resource Slicing for QoS in 5G O-RAN using DRL | Yan P, et al. | IEEE Trans. Netw. | [Paper](https://doi.org/10.1109/TON.2025.3628209) |
+| Independent DRL for RSMA-Enabled Hybrid RAN Slicing | Tu H, et al. | IEEE TVT | [Paper](https://doi.org/10.1109/TVT.2025.3591037) |
 
-- **Functions**: Traffic steering, QoS optimization, interference management
-- **AI/ML**: Deep RL, supervised learning, online learning
-- **Deployment**: Containerized microservices
+### 2025
+| Title | Authors | Venue | Link |
+|-------|---------|:-----:|:----:|
+| Green O-RAN: DRL and Transfer Learning for Radio Resource Management | Sherif H, et al. | Computer Commun. | [Paper](https://doi.org/10.1016/j.comcom.2025.108126) |
+| HiSO-CoMA: Hierarchical Multi-Agent DRL for O-RAN Slicing | Sabr O, et al. | IEEE OJCOMS | [Paper](https://doi.org/10.1109/OJCOMS.2025.3631799) |
+| Optimizing URLLC in Open RAN: DRL Trade-Off Analysis | Sohaib RM, et al. | IEEE CSM | [Paper](https://doi.org/10.1109/MCOMSTD.2025.3572604) |
+| QoS-Aware Dynamic CU Selection with Graph RL | Racedo S, et al. | CNSM | [Paper](https://doi.org/10.23919/CNSM67658.2025.11297515) |
+| Percentile-Based DRL for Delay Aware RAN Slicing | Tehrani P, Alsoliman A | arXiv | [Paper](https://arxiv.org/abs/2507.18111) |
+| DRL-Based Dynamic Scheduling for LTE and RAN Slicing | Benmadani HE, et al. | IEEE Access | [Paper](https://doi.org/10.1109/ACCESS.2025.3541531) |
+| LLM-Augmented DRL for Dynamic O-RAN Network Slicing | Lotfi F, et al. | ICC | [Paper](https://doi.org/10.1109/ICC52391.2025.11161572) |
+| Diffusion Model + Digital Twin Enhanced DRL for RAN Slicing | Xiong S, et al. | WCNC | [Paper](https://doi.org/10.1109/WCNC61545.2025.10978657) |
 
-| Year | Title | Venue | Approach |
-|------|-------|-------|----------|
-| 2026 | Efficient Self-Learning and Model Versioning for AI-native O-RAN Edge | arXiv | Online Learning |
-| 2025 | QoS-Aware Dynamic CU Selection with Graph-Based RL | arXiv | GNN + RL |
-| 2024 | Multi-Agent xApps for Distributed RAN Control | IEEE TNSM | MARL |
+### 2024
+| Title | Authors | Venue | Link |
+|-------|---------|:-----:|:----:|
+| Hierarchical RL Based Resource Allocation for RAN Slicing | Akyildiz HA, et al. | IEEE Access | [Paper](https://doi.org/10.1109/ACCESS.2024.3406949) |
+| Safe and Accelerated DRL-Based O-RAN Slicing with Transfer Learning | Nagib AM, et al. | IEEE JSAC | [Paper](https://doi.org/10.1109/JSAC.2023.3336191) |
 
-### rApp Development
+### 2022
+| Title | Authors | Venue | Link |
+|-------|---------|:-----:|:----:|
+| Deep Transfer RL for Joint Radio and Cache Resource Allocation | Zhou H, et al. | IEEE TCCN | [Paper](https://doi.org/10.1109/TCCN.2022.3204572) |
+| AUTODEEPSLICE: AutoML for 5G Network Slicing | Chowdhury D, et al. | GLOBECOM | [Paper](https://doi.org/10.1109/GCWkshps56602.2022.10008652) |
 
-rApps run on Non-RT RIC for policy management and ML model training (>1s latency).
+### 2021
+| Title | Authors | Venue | Link |
+|-------|---------|:-----:|:----:|
+| Transfer Learning-Based Accelerated DRL for 5G RAN Slicing | Nagib AM, et al. | LCN | [Paper](https://doi.org/10.1109/LCN52139.2021.9524965) |
 
-- **Functions**: Policy generation, ML training, network analytics
-- **AI/ML**: Federated learning, transfer learning, AutoML
-
-| Year | Title | Venue | Approach |
-|------|-------|-------|----------|
-| 2024 | rApp-based Network Digital Twin for O-RAN | OFC | Digital Twin |
-| 2023 | Automated ML Pipeline for rApp Development | IEEE Network | AutoML |
-
-### Resource Management
-
-Intelligent allocation of radio resources.
-
-- **Problems**: PRB allocation, power control, MCS selection
-- **Methods**: DRL (DQN, PPO, A3C), GNN, Transformer
-
-| Year | Title | Venue | Approach |
-|------|-------|-------|----------|
-| 2026 | Meta Hierarchical RL for Scalable Resource Management | arXiv | Meta-RL |
-| 2025 | Task Specific Sharpness Aware O-RAN Resource Management | arXiv | MARL |
-| 2024 | Transformer-based Resource Allocation for O-RAN | IEEE TWC | Transformer |
-
-### Traffic Steering & Load Balancing
-
-Optimizing user association and traffic distribution.
-
-- **Objectives**: Load balancing, throughput maximization, latency reduction
-- **Approaches**: Multi-agent RL, graph-based methods
-
-### Spectrum Management
-
-Dynamic spectrum allocation and interference management.
-
-- **Scenarios**: DSS, CBRS, unlicensed bands
-- **Methods**: RL, game theory, federated learning
-
-| Year | Title | Venue | Approach |
-|------|-------|-------|----------|
-| 2026 | O-DSS: Open Dynamic Spectrum Sharing Framework | arXiv | ML + ESC |
-| 2024 | ML-based Spectrum Sensing for O-RAN | IEEE JSAC | CNN + RL |
-
-### Network Slicing
-
-AI-driven network slice management.
-
-- **Functions**: Slice admission, resource isolation, SLA assurance
-- **Methods**: DRL, prediction-based, optimization
-
-### Energy Efficiency
-
-Green O-RAN through intelligent power management.
-
-- **Strategies**: Cell sleep, power scaling, renewable integration
-- **Methods**: RL, prediction + optimization
-
-### Security & Anomaly Detection
-
-Protecting O-RAN from threats and attacks.
-
-- **Threats**: Jamming, DoS, adversarial ML, rogue xApps
-- **Methods**: Anomaly detection, adversarial training, secure FL
-
-| Year | Title | Venue | Approach |
-|------|-------|-------|----------|
-| 2026 | Quantum-Augmented AI/ML for O-RAN Threat Detection | arXiv | Quantum ML |
-| 2025 | SAJD: Self-Adaptive Jamming Attack Detection | arXiv | Adaptive ML |
-| 2025 | Black-Box Evasion Attacks on Data-Driven O-RAN Apps | arXiv | Adversarial ML |
-| 2025 | xApp Conflict Evaluation with Explainable ML | arXiv | XAI |
-
-### QoS Optimization
-
-Meeting diverse QoS requirements.
-
-- **Metrics**: Latency, throughput, reliability, jitter
-- **Applications**: URLLC, eMBB, mMTC
-
-### Handover Optimization
-
-Intelligent mobility management.
-
-- **Challenges**: Ping-pong, handover failures, latency
-- **Methods**: RL, prediction-based, proactive handover
-
-### Beam Management
-
-AI for mmWave/sub-THz beam tracking and selection.
-
-- **Problems**: Beam selection, beam tracking, beam failure recovery
-- **Methods**: Deep learning, RL, hybrid approaches
-
-### Federated Learning
-
-Distributed ML across O-RAN components.
-
-- **Scenarios**: Cross-cell, cross-operator, privacy-preserving
-- **Challenges**: Non-IID data, communication efficiency, security
-
-| Year | Title | Venue | Approach |
-|------|-------|-------|----------|
-| 2025 | D2D-Assisted Hierarchical Federated Learning with GCN Clustering | IEEE ToN | FL + GNN |
-| 2024 | Federated Learning for O-RAN: A Survey | IEEE COMST | Survey |
-
-### Large Language Models
-
-LLMs for O-RAN operations and knowledge discovery.
-
-| Year | Title | Venue | Approach |
-|------|-------|-------|----------|
-| 2026 | Contextual RAG and LLM Prompting for O-RAN | arXiv | RAG + LLM |
-| 2025 | LLM-based Blind DoS Detection in O-RAN | arXiv | LLM |
-| 2024 | Intent-Based O-RAN Management with GPT | IEEE Network | LLM |
+### 2019
+| Title | Authors | Venue | Link |
+|-------|---------|:-----:|:----:|
+| Real-Time Resource Slicing for 5G RAN via DRL | Xi R, et al. | ICPADS | [Paper](https://doi.org/10.1109/ICPADS47876.2019.00094) |
 
 ---
 
-## 🛠️ Tools & Platforms
+## 🔗 Graph Neural Networks
 
+GNN applications in O-RAN.
+
+| Year | Title | Venue | Link |
+|:----:|-------|:-----:|:----:|
+| 2025 | QoS-Aware Dynamic CU Selection with Graph RL | CNSM | [Paper](https://doi.org/10.23919/CNSM67658.2025.11297515) |
+| 2025 | GNN for O-RAN Mobility Management: Link Prediction | IEEE VTM | [Paper](https://ieeexplore.ieee.org/document/11241210/) |
+| 2021 | Connection Management xAPP: GNN and RL Approach | ICMLA | [Paper](https://doi.org/10.1109/ICMLA52953.2021.00154) |
+
+---
+
+## 🔄 Transfer Learning
+
+Transfer learning for accelerating DRL in O-RAN.
+
+| Year | Title | Venue | Link |
+|:----:|-------|:-----:|:----:|
+| 2025 | DRL + Transfer Learning for Green O-RAN | Computer Commun. | [Paper](https://doi.org/10.1016/j.comcom.2025.108126) |
+| 2024 | Safe DRL with Hybrid Transfer Learning | IEEE JSAC | [Paper](https://doi.org/10.1109/JSAC.2023.3336191) |
+| 2022 | Deep Transfer RL for 5G RAN Slicing | IEEE TCCN | [Paper](https://doi.org/10.1109/TCCN.2022.3204572) |
+| 2021 | Transfer Learning-Based Accelerated DRL | LCN | [Paper](https://doi.org/10.1109/LCN52139.2021.9524965) |
+
+---
+
+## 🤖 LLM & Foundation Models
+
+Large Language Models for O-RAN.
+
+| Year | Title | Venue | Link |
+|:----:|-------|:-----:|:----:|
+| 2025 | ORAN-GUIDE: RAG-Driven Prompt Learning for LLM-Augmented RL | arXiv | [Paper](https://arxiv.org/abs/2506.00576) |
+| 2025 | LLM-Augmented DRL for Dynamic O-RAN Slicing | ICC | [Paper](https://doi.org/10.1109/ICC52391.2025.11161572) |
+
+---
+
+## 🛡️ Security & Anomaly Detection
+
+ML for O-RAN security.
+
+| Year | Title | Venue | Link |
+|:----:|-------|:-----:|:----:|
+| 2025 | Detecting and Mitigating Adversarial ML Using Digital Twin | IEEE WCL | [Paper](https://doi.org/10.1109/LWC.2025.3609661) |
+| 2024 | ML Random Access DDoS Detection in Open RAN | MobiCom | [Paper](https://doi.org/10.1145/3636534.3701546) |
+| 2024 | DDoS Detection and Mitigation Using d/xApp | FNWF | [Paper](https://doi.org/10.1109/FNWF63303.2024.11028717) |
+
+---
+
+## 🪞 Digital Twin
+
+Digital Twin enhanced O-RAN.
+
+| Year | Title | Venue | Link |
+|:----:|-------|:-----:|:----:|
+| 2025 | Diffusion Model + Digital Twin + DRL for RAN Slicing | WCNC | [Paper](https://doi.org/10.1109/WCNC61545.2025.10978657) |
+| 2025 | Adversarial ML Defense Using Digital Twin | IEEE WCL | [Paper](https://doi.org/10.1109/LWC.2025.3609661) |
+
+---
+
+## 🛠️ Tools & Testbeds
+
+### Tools
 | Tool | Description | Link |
-|------|-------------|------|
-| **O-RAN SC** | O-RAN Software Community reference implementation | [O-RAN SC](https://o-ran-sc.org/) |
-| **OpenAirInterface (OAI)** | Open-source 5G RAN and Core | [OAI](https://openairinterface.org/) |
-| **srsRAN** | Open-source 4G/5G RAN | [srsRAN](https://www.srsran.com/) |
-| **FlexRIC** | Flexible RIC implementation | [GitHub](https://github.com/srsran/srsRAN_Project) |
-| **ColO-RAN** | Large-scale O-RAN testing framework | [Colosseum](https://www.colosseum.net/) |
-| **POWDER** | NSF wireless testbed | [POWDER](https://powderwireless.net/) |
-| **ns-O-RAN** | ns-3 O-RAN module | [GitHub](https://github.com/wineslab/ns-o-ran) |
-
----
-
-## 📊 Datasets & Testbeds
-
-### Datasets
-
-| Dataset | Description | Link |
-|---------|-------------|------|
-| **Colosseum** | Large-scale RF emulation with O-RAN | [Colosseum](https://www.colosseum.net/) |
-| **DeepSig RadioML** | RF signal dataset | [DeepSig](https://www.deepsig.ai/datasets) |
-| **5G-LENA** | NR simulation data | [CTTC](https://5g-lena.cttc.es/) |
+|------|-------------|:----:|
+| O-RAN SC | O-RAN Software Community reference implementation | [Website](https://o-ran-sc.org/) |
+| OpenAirInterface | Open-source 5G RAN and Core | [Website](https://openairinterface.org/) |
+| srsRAN | Open-source 4G/5G RAN | [Website](https://www.srsran.com/) |
+| FlexRIC | Flexible RIC implementation | [GitHub](https://github.com/srsran/srsRAN_Project) |
 
 ### Testbeds
-
 | Testbed | Description | Link |
-|---------|-------------|------|
-| **Colosseum** | World's largest RF emulator | [Link](https://www.colosseum.net/) |
-| **POWDER-RENEW** | NSF PAWR platform | [Link](https://powderwireless.net/) |
-| **COSMOS** | NYC advanced wireless testbed | [Link](https://cosmos-lab.org/) |
-| **Arena** | Drexel wireless testbed | [Link](https://www.intelsys.ece.drexel.edu/) |
-
----
-
-## 🏆 Competitions & Challenges
-
-- **O-RAN Alliance PlugFest** - Annual interoperability testing
-- **ITU AI/ML in 5G Challenge** - Global AI challenge for 5G/O-RAN
-- **DARPA Spectrum Collaboration Challenge (SC2)** - Autonomous spectrum sharing
-
----
-
-## 📖 Standards & Specifications
-
-| Specification | Description | Link |
-|---------------|-------------|------|
-| **O-RAN.WG2.AIML** | AI/ML workflow for O-RAN | [O-RAN Alliance](https://www.o-ran.org/) |
-| **O-RAN.WG3.RICARCH** | Near-RT RIC Architecture | [O-RAN Alliance](https://www.o-ran.org/) |
-| **O-RAN.WG2.Non-RT-RIC** | Non-RT RIC Architecture | [O-RAN Alliance](https://www.o-ran.org/) |
-| **3GPP TS 28.105** | AI/ML Management | [3GPP](https://www.3gpp.org/) |
-
----
-
-## 🎓 Research Groups
-
-| Group | Affiliation | Focus |
-|-------|-------------|-------|
-| **WiNES Lab** | Northeastern University | O-RAN, Colosseum |
-| **WINLAB** | Rutgers University | Wireless, COSMOS |
-| **AI4Networks** | University of Edinburgh | AI for mobile networks |
-| **NetAI Lab** | Various | AI networking |
-
----
-
-## 📅 Conferences & Journals
-
-### Conferences
-- **IEEE GLOBECOM / ICC** - Flagship IEEE communications conferences
-- **IEEE INFOCOM** - Networking conference
-- **ACM MobiCom / MobiSys** - Mobile computing
-- **IEEE VTC** - Vehicular technology
-- **IEEE WCNC** - Wireless communications and networking
-
-### Journals
-- **IEEE Transactions on Wireless Communications (TWC)**
-- **IEEE Journal on Selected Areas in Communications (JSAC)**
-- **IEEE Communications Magazine**
-- **IEEE Network**
-- **IEEE Transactions on Mobile Computing**
-- **IEEE Transactions on Network and Service Management**
+|---------|-------------|:----:|
+| Colosseum | World's largest RF emulator with O-RAN | [Website](https://www.colosseum.net/) |
+| POWDER-RENEW | NSF PAWR platform | [Website](https://powderwireless.net/) |
+| COSMOS | NYC advanced wireless testbed | [Website](https://cosmos-lab.org/) |
 
 ---
 
 ## Contributing
 
-Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
-
-- 🌟 Star this repo if you find it useful!
-- 📬 Submit a PR to add papers, tools, or datasets
-- 🐛 Open an issue for suggestions or corrections
-
----
-
-## Citation
-
-If you find this repository useful, please cite:
-
-```bibtex
-@misc{awesome-ai-oran,
-  author = {Your Name},
-  title = {Awesome AI for O-RAN},
-  year = {2026},
-  publisher = {GitHub},
-  url = {https://github.com/YOUR_USERNAME/awesome-ai-oran}
-}
-```
-
----
+Contributions welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
 
 ## License
 
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+MIT License - see [LICENSE](LICENSE)
 
 ---
 
-**Maintainer**: [Your Name](https://github.com/YOUR_USERNAME)  
-**Last Updated**: February 2026
+**Maintainer**: [Your GitHub Username]  
+**Last Updated**: February 2026  
+**Total Papers**: 35+
