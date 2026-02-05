@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/📅_Updated-Daily-00C853?style=flat-square" alt="Daily Updated">
-  <img src="https://img.shields.io/badge/Papers-49+-blue?style=flat-square&logo=google-scholar" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-65+-blue?style=flat-square&logo=google-scholar" alt="Papers">
   <img src="https://img.shields.io/github/stars/LynchXLQ/awesome-ai-oran?style=flat-square&logo=github&color=yellow" alt="Stars">
   <img src="https://img.shields.io/github/forks/LynchXLQ/awesome-ai-oran?style=flat-square&logo=github" alt="Forks">
   <img src="https://img.shields.io/github/last-commit/LynchXLQ/awesome-ai-oran?style=flat-square&color=purple" alt="Last Commit">
@@ -59,6 +59,7 @@
 - [🎮 Deep Reinforcement Learning](#-deep-reinforcement-learning)
 - [🔗 Graph Neural Networks](#-graph-neural-networks)
 - [🔄 Transfer Learning](#-transfer-learning)
+- [🤖 Transformer & Attention](#-transformer--attention)
 - [💬 LLM & RAG](#-llm--rag)
 - [🔐 Security & Anomaly Detection](#-security--anomaly-detection)
 - [🌐 Digital Twin](#-digital-twin)
@@ -92,6 +93,7 @@
 | ML-based xApp for Dynamic Resource Allocation | IEEE ICMLCN | **ML Allocation** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/ICMLCN59089.2024.10625184) |
 | Enabling Reusable and Comparable xApps in ML-Driven Open RAN | IEEE HPSR | **ML Framework** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/HPSR62440.2024.10635962) |
 | Universal Vertical Application Adaptation: Autonomous Intelligent xAPP | IEEE Comm. Mag. | **Auto xApp Gen** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/MCOM.001.2200907) |
+| ALAP: Availability- and Latency-Aware Protection for O-RAN | IEEE TNSM | **Deep Q-Learning** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/TNSM.2023.3339302) |
 
 </details>
 
@@ -126,6 +128,11 @@
 | DRL-Based Dynamic Scheduling for Real-Time Applications | IEEE Access | **DRL** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/ACCESS.2025.3541531) |
 | LLM-Augmented DRL for Dynamic O-RAN Network Slicing | IEEE ICC | **LLM + DRL** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/ICC52391.2025.11161572) |
 | Diffusion Model + Digital Twin Enhanced DRL for RAN Slicing | IEEE WCNC | **Diffusion + DRL** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/WCNC61545.2025.10978657) |
+| Federated Neuroevolution O-RAN: Enhancing the Robustness of DRL xApps | IEEE Comm. Mag. | **Federated DRL** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/MCOM.001.2400491) |
+| Federated DRL-Driven O-RAN for Automatic Multirobot Reconfiguration | IEEE NOMS | **Federated DRL** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/NOMS57970.2025.11073682) |
+| DRL Based xApp for RAN Slice Management Using OpenAirInterface | IEEE PIMRC | **DRL + xApp** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/PIMRC62392.2025.11275500) |
+| Energy-Saving in 5G Open RAN with Deep Q-Learning Sleep Mode Control | IEEE PIMRC | **DQL + Energy** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/PIMRC62392.2025.11274578) |
+| Meta RL Approach for Adaptive Resource Optimization in O-RAN | IEEE WCNC | **Meta RL** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/WCNC61545.2025.10978365) |
 
 </details>
 
@@ -136,6 +143,10 @@
 |-------|-------|-----------|-------|
 | Hierarchical RL Based Resource Allocation for RAN Slicing | IEEE Access | **Hierarchical RL** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/ACCESS.2024.3406949) |
 | Safe and Accelerated DRL-Based O-RAN Slicing: Hybrid Transfer Learning | IEEE JSAC | **Safe DRL + TL** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/JSAC.2023.3336191) |
+| A Bayesian Framework of DRL for Joint O-RAN/MEC Orchestration | IEEE OJCOMS | **Bayesian DRL** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/OJCOMS.2024.3509777) |
+| Deep Reinforcement Learning for Robust VNF Reconfigurations in O-RAN | IEEE TNSM | **DRL + VNF** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/TNSM.2023.3316074) |
+| Multi-Agent DRL-Based Task Scheduling for O-RAN-Empowered Multi-UAV-Assisted WSNs | IEEE TVT | **MADRL + UAV** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/TVT.2023.3330661) |
+| O-RAN-Based Digital Twin Function Virtualization for Sustainable IoV Service Response | IEEE TGCN | **Async HRL + DT** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/TGCN.2024.3435796) |
 
 </details>
 
@@ -179,6 +190,18 @@
 
 ---
 
+## 🤖 Transformer & Attention
+
+> Transformer-based models for O-RAN traffic prediction and optimization
+
+| Title | Year | Venue | AI Method | Links |
+|-------|------|-------|-----------|-------|
+| Transformer-Based Wireless Traffic Prediction and Network Optimization in O-RAN | 2024 | ICC Workshops | **Transformer** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/ICCWorkshops59551.2024.10615438) |
+| Learning Low-Dimensional Representation for O-RAN Testing via Transformer-ESN | 2025 | IEEE MASS | **Transformer + ESN** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/MASS66014.2025.00030) |
+| Harnessing LLMs, Informers and Decision Transformers for Intent-driven RAN | 2025 | arXiv | **Decision Transformer** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2505.01841) |
+
+---
+
 ## 💬 LLM & RAG
 
 > Large Language Models for O-RAN operations and knowledge discovery
@@ -187,6 +210,7 @@
 |-------|------|-------|-----------|-------|
 | ORAN-GUIDE: RAG-Driven Prompt Learning for LLM-Augmented RL | 2025 | arXiv | **RAG + LLM + RL** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2506.00576) |
 | LLM-Augmented DRL for Dynamic O-RAN Network Slicing | 2025 | IEEE ICC | **LLM + DRL** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/ICC52391.2025.11161572) |
+| Harnessing LLMs, Informers and Decision Transformers for Intent-driven RAN | 2025 | arXiv | **LLM + Transformer** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2505.01841) |
 
 ---
 
