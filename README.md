@@ -53,8 +53,29 @@
 
 ---
 
+## 📅 Upcoming Conferences 2026
+
+> 🇺🇸 = Conference in USA (Recommended for US-based attendance)
+
+| Conference | Full Name | Date | Location | Submission Deadline | Website |
+|------------|-----------|------|----------|---------------------|---------|
+| 🇺🇸 **OFC 2026** | Optical Fiber Communication Conference | Mar 15-19, 2026 | Los Angeles, CA, USA | Closed | [![Website](https://img.shields.io/badge/Website-Visit-blue)](https://www.ofcconference.org) |
+| **MWC 2026** | Mobile World Congress (O-RAN Summit: Mar 3) | Mar 2-5, 2026 | Barcelona, Spain | N/A | [![Website](https://img.shields.io/badge/Website-Visit-blue)](https://www.mwcbarcelona.com/) |
+| **ONDM 2026** | Optical Network Design and Modelling | May 12-15, 2026 | Munich, Germany | Jan 10, 2026 | [![Website](https://img.shields.io/badge/Website-Visit-blue)](https://ondm2026.de/) |
+| **INFOCOM 2026** | IEEE Int'l Conf. Computer Communications | May 18-21, 2026 | Tokyo, Japan | Dec 8, 2025 (Closed) | [![Website](https://img.shields.io/badge/Website-Visit-blue)](https://infocom2026.ieee-infocom.org/) |
+| **NOMS 2026** | IEEE/IFIP Network Operations & Management | May 18-22, 2026 | Rome, Italy | Workshop: Jan 21, 2026 | [![Website](https://img.shields.io/badge/Website-Visit-blue)](https://noms2026.ieee-noms.org/) |
+| **ICC 2026** | IEEE Int'l Conf. on Communications | May 24-28, 2026 | Glasgow, UK | Workshop: Jan 31, 2026 | [![Website](https://img.shields.io/badge/Website-Visit-blue)](https://icc2026.ieee-icc.org/) |
+| 🇺🇸 **SIGCOMM 2026** | ACM SIGCOMM Conference | Aug 17-21, 2026 | Denver, CO, USA | Feb 6, 2026 | [![Website](https://img.shields.io/badge/Website-Visit-blue)](https://conferences.sigcomm.org/sigcomm/2026/) |
+| **ECOC 2026** | European Conf. Optical Communication | Sep 20-24, 2026 | London, UK | Mid-April 2026 | [![Website](https://img.shields.io/badge/Website-Visit-blue)](https://ecoc2026.org/) |
+| **GLOBECOM 2026** | IEEE Global Communications Conference | Dec 7-11, 2026 | Macau, China | Mar 15, 2026 | [![Website](https://img.shields.io/badge/Website-Visit-blue)](https://globecom2026.ieee-globecom.org/) |
+
+> 💡 **Note:** OFC and SIGCOMM are the two major conferences in the USA for 2026! MWC Barcelona hosts the O-RAN ALLIANCE Summit on March 3, 2026.
+
+---
+
 ## 📖 Table of Contents
 
+- [📅 Upcoming Conferences 2026](#-upcoming-conferences-2026)
 - [📱 ML-based xApps](#-ml-based-xapps)
 - [🎮 Deep Reinforcement Learning](#-deep-reinforcement-learning)
 - [🔗 Graph Neural Networks](#-graph-neural-networks)
