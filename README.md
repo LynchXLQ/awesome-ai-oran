@@ -1,27 +1,5 @@
 <div align="center">
 
-<!-- ANIMATED HEADER -->
-```
-  ██████╗       ██████╗  █████╗ ███╗   ██╗
- ██╔═══██╗      ██╔══██╗██╔══██╗████╗  ██║
- ██║   ██║█████╗██████╔╝███████║██╔██╗ ██║
- ██║   ██║╚════╝██╔══██╗██╔══██║██║╚██╗██║
- ╚██████╔╝      ██║  ██║██║  ██║██║ ╚████║
-  ╚═════╝       ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
-       █████╗ ██╗    ██╗███████╗███████╗ ██████╗ ███╗   ███╗███████╗
-      ██╔══██╗██║    ██║██╔════╝██╔════╝██╔═══██╗████╗ ████║██╔════╝
-      ███████║██║ █╗ ██║█████╗  ███████╗██║   ██║██╔████╔██║█████╗  
-      ██╔══██║██║███╗██║██╔══╝  ╚════██║██║   ██║██║╚██╔╝██║██╔══╝  
-      ██║  ██║╚███╔███╔╝███████╗███████║╚██████╔╝██║ ╚═╝ ██║███████╗
-      ╚═╝  ╚═╝ ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝
-                     █████╗ ██╗
-                    ██╔══██╗██║
-                    ███████║██║
-                    ██╔══██║██║
-                    ██║  ██║██║
-                    ╚═╝  ╚═╝╚═╝
-```
-
 # 📡 Awesome AI for O-RAN
 
 <p align="center">
@@ -31,10 +9,11 @@
 <!-- BADGES -->
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
+  <img src="https://img.shields.io/badge/📅_Updated-Daily-00C853?style=flat-square" alt="Daily Updated">
   <img src="https://img.shields.io/badge/Papers-49+-blue?style=flat-square&logo=google-scholar" alt="Papers">
   <img src="https://img.shields.io/github/stars/YOUR_USERNAME/awesome-ai-oran?style=flat-square&logo=github&color=yellow" alt="Stars">
   <img src="https://img.shields.io/github/forks/YOUR_USERNAME/awesome-ai-oran?style=flat-square&logo=github" alt="Forks">
-  <img src="https://img.shields.io/github/last-commit/YOUR_USERNAME/awesome-ai-oran?style=flat-square" alt="Last Commit">
+  <img src="https://img.shields.io/github/last-commit/YOUR_USERNAME/awesome-ai-oran?style=flat-square&color=purple" alt="Last Commit">
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
 </p>
 
@@ -51,43 +30,16 @@
   <a href="#-deep-reinforcement-learning">DRL</a> •
   <a href="#-graph-neural-networks">GNN</a> •
   <a href="#-llm--rag">LLM</a> •
-  <a href="#-security">Security</a> •
+  <a href="#-security--anomaly-detection">Security</a> •
   <a href="#-digital-twin">Digital Twin</a> •
-  <a href="#-tools--testbeds">Tools</a>
+  <a href="#️-tools--testbeds">Tools</a>
 </p>
 
 ---
 
-<!-- O-RAN ARCHITECTURE DIAGRAM -->
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                        O-RAN Architecture                                │
-├─────────────────────────────────────────────────────────────────────────┤
-│  ┌─────────────────────────────────────────────────────────────────┐   │
-│  │                    Non-RT RIC (> 1s)                             │   │
-│  │   ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐       │   │
-│  │   │  rApp 1  │  │  rApp 2  │  │  rApp 3  │  │    ...   │ 🤖 ML │   │
-│  │   │   (ML)   │  │   (ML)   │  │   (ML)   │  │          │       │   │
-│  │   └──────────┘  └──────────┘  └──────────┘  └──────────┘       │   │
-│  └─────────────────────────────────────────────────────────────────┘   │
-│                              ↓ A1                                       │
-│  ┌─────────────────────────────────────────────────────────────────┐   │
-│  │                    Near-RT RIC (10ms-1s)                         │   │
-│  │   ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐       │   │
-│  │   │  xApp 1  │  │  xApp 2  │  │  xApp 3  │  │    ...   │ 🧠 AI │   │
-│  │   │  (DRL)   │  │  (GNN)   │  │ (Slicing)│  │          │       │   │
-│  │   └──────────┘  └──────────┘  └──────────┘  └──────────┘       │   │
-│  └─────────────────────────────────────────────────────────────────┘   │
-│                              ↓ E2                                       │
-│  ┌───────────────┐  ┌───────────────┐  ┌───────────────┐              │
-│  │    O-CU-CP    │  │    O-CU-UP    │  │     O-DU      │              │
-│  └───────────────┘  └───────────────┘  └───────────────┘              │
-│                              ↓ F1                                       │
-│  ┌───────────────────────────────────────────────────────────────────┐ │
-│  │                           O-RU                                     │ │
-│  └───────────────────────────────────────────────────────────────────┘ │
-└─────────────────────────────────────────────────────────────────────────┘
-```
+> 📢 **This repository is actively maintained and updated daily with the latest AI/ML papers in O-RAN!**
+>
+> ⭐ Star this repo to stay updated with cutting-edge research!
 
 ---
 
@@ -344,11 +296,5 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 **Made with ❤️ for the O-RAN Research Community**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
-
----
-
-### 📬 Stay Updated
-
-[![Twitter Follow](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=flat-square&logo=twitter)](https://twitter.com/intent/follow?screen_name=YOUR_TWITTER)
 
 </div>
