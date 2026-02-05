@@ -14,9 +14,9 @@
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/📅_Updated-Daily-00C853?style=flat-square" alt="Daily Updated">
   <img src="https://img.shields.io/badge/Papers-49+-blue?style=flat-square&logo=google-scholar" alt="Papers">
-  <img src="https://img.shields.io/github/stars/YOUR_USERNAME/awesome-ai-oran?style=flat-square&logo=github&color=yellow" alt="Stars">
-  <img src="https://img.shields.io/github/forks/YOUR_USERNAME/awesome-ai-oran?style=flat-square&logo=github" alt="Forks">
-  <img src="https://img.shields.io/github/last-commit/YOUR_USERNAME/awesome-ai-oran?style=flat-square&color=purple" alt="Last Commit">
+  <img src="https://img.shields.io/github/stars/LynchXLQ/awesome-ai-oran?style=flat-square&logo=github&color=yellow" alt="Stars">
+  <img src="https://img.shields.io/github/forks/LynchXLQ/awesome-ai-oran?style=flat-square&logo=github" alt="Forks">
+  <img src="https://img.shields.io/github/last-commit/LynchXLQ/awesome-ai-oran?style=flat-square&color=purple" alt="Last Commit">
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
 </p>
 
@@ -47,7 +47,7 @@
 ---
 
 <!-- STAR HISTORY -->
-[![Star History Chart](https://api.star-history.com/svg?repos=YOUR_USERNAME/awesome-ai-oran&type=Date)](https://star-history.com/#YOUR_USERNAME/awesome-ai-oran&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=LynchXLQ/awesome-ai-oran&type=Date)](https://star-history.com/#LynchXLQ/awesome-ai-oran&Date)
 
 </div>
 
@@ -294,7 +294,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 ### ⭐ If you find this repository useful, please consider giving it a star!
 
-[![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/awesome-ai-oran?style=social)](https://github.com/YOUR_USERNAME/awesome-ai-oran)
+[![GitHub stars](https://img.shields.io/github/stars/LynchXLQ/awesome-ai-oran?style=social)](https://github.com/LynchXLQ/awesome-ai-oran)
 
 **Made with ❤️ for the O-RAN Research Community**
 
