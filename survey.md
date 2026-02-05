@@ -7,12 +7,12 @@ A curated collection of AI/ML research papers for O-RAN. Only papers with explic
 ## Table of Contents
 
 - [ML-based xApps](#ml-based-xapps)
-- [Deep Reinforcement Learning](#deep-reinforcement-learning)
+- [Deep Reinforcement Learning for RAN Slicing](#deep-reinforcement-learning-for-ran-slicing)
 - [Graph Neural Networks](#graph-neural-networks)
-- [Federated Learning](#federated-learning)
-- [ML for Security](#ml-for-security)
 - [Transfer Learning](#transfer-learning)
 - [LLM & Foundation Models](#llm--foundation-models)
+- [ML for Security](#ml-for-security)
+- [Diffusion Models & Digital Twin](#diffusion-models--digital-twin)
 
 ---
 
@@ -55,9 +55,20 @@ A curated collection of AI/ML research papers for O-RAN. Only papers with explic
 
 ---
 
-## Deep Reinforcement Learning
+## Deep Reinforcement Learning for RAN Slicing
+
+### 2026
+
+- Yan P, et al. **Near-Real-Time Resource Slicing for QoS Optimization in 5G O-RAN Using Deep Reinforcement Learning**. IEEE Trans. Netw., 2026. [Link](https://doi.org/10.1109/TON.2025.3628209)
+  - *DRL for near-RT slicing*
+
+- Tu H, et al. **Independent Deep Reinforcement Learning for Optimization of RSMA-Enabled Hybrid RAN Slicing**. IEEE TVT, 2026. [Link](https://doi.org/10.1109/TVT.2025.3591037)
+  - *Independent DRL for RSMA slicing*
 
 ### 2025
+
+- Sherif H, et al. **Towards green networking: Efficient dynamic radio resource management in Open-RAN slicing using deep reinforcement learning and transfer learning**. Computer Communications, 2025. [Link](https://doi.org/10.1016/j.comcom.2025.108126)
+  - *DRL + transfer learning for green O-RAN*
 
 - Sabr O, et al. **HiSO-CoMA: Hierarchical Self-Optimizing Framework for O-RAN Slicing Using Cooperative Multiple Agent Deep Reinforcement Learning**. IEEE OJCOMS, 2025. [Link](https://doi.org/10.1109/OJCOMS.2025.3631799)
   - *Multi-agent DRL for slicing*
@@ -70,6 +81,12 @@ A curated collection of AI/ML research papers for O-RAN. Only papers with explic
 
 - Tehrani P, Alsoliman A. **Percentile-Based Deep Reinforcement Learning for Delay Aware RAN Slicing in O-RAN**. arXiv 2025. [Link](https://arxiv.org/abs/2507.18111)
   - *DRL for delay-aware slicing*
+
+- Benmadani HE, et al. **Deep Reinforcement Learning-Based Dynamic Scheduling for Real-Time Applications in LTE and RAN Slicing for eMBB in 5G**. IEEE Access, 2025. [Link](https://doi.org/10.1109/ACCESS.2025.3541531)
+  - *DRL for dynamic scheduling*
+
+- Lotfi F, et al. **LLM-Augmented Deep Reinforcement Learning for Dynamic O-RAN Network Slicing**. ICC 2025. [Link](https://doi.org/10.1109/ICC52391.2025.11161572)
+  - *LLM + DRL for slicing*
 
 ### 2024
 
@@ -86,6 +103,24 @@ A curated collection of AI/ML research papers for O-RAN. Only papers with explic
 
 - Habib MA, et al. **Intent-driven Intelligent Control and Orchestration in O-RAN Via Hierarchical Reinforcement Learning**. arXiv 2023. [Link](https://arxiv.org/abs/2307.02754)
   - *Hierarchical RL for intent-driven control*
+
+### 2022
+
+- Zhou H, et al. **Learning From Peers: Deep Transfer Reinforcement Learning for Joint Radio and Cache Resource Allocation in 5G RAN Slicing**. IEEE TCCN, 2022. [Link](https://doi.org/10.1109/TCCN.2022.3204572)
+  - *Deep transfer RL for 5G slicing*
+
+- Chowdhury D, et al. **AUTODEEPSLICE: A Data Driven Network Slicing Technique of 5G network using Automatic Deep Learning**. GLOBECOM 2022. [Link](https://doi.org/10.1109/GCWkshps56602.2022.10008652)
+  - *AutoML for slicing*
+
+### 2021
+
+- Nagib AM, et al. **Transfer Learning-Based Accelerated Deep Reinforcement Learning for 5G RAN Slicing**. LCN 2021. [Link](https://doi.org/10.1109/LCN52139.2021.9524965)
+  - *Transfer learning for DRL*
+
+### 2019
+
+- Xi R, et al. **Real-Time Resource Slicing for 5G RAN via Deep Reinforcement Learning**. ICPADS 2019. [Link](https://doi.org/10.1109/ICPADS47876.2019.00094)
+  - *Real-time DRL for slicing (early work)*
 
 ---
 
@@ -106,6 +141,47 @@ A curated collection of AI/ML research papers for O-RAN. Only papers with explic
 
 ---
 
+## Transfer Learning
+
+### 2025
+
+- Sherif H, et al. **Efficient dynamic radio resource management in Open-RAN slicing using deep reinforcement learning and transfer learning**. Computer Communications, 2025. [Link](https://doi.org/10.1016/j.comcom.2025.108126)
+  - *Transfer learning for green O-RAN*
+
+### 2024
+
+- Nagib AM, et al. **Safe and Accelerated Deep Reinforcement Learning-Based O-RAN Slicing: A Hybrid Transfer Learning Approach**. IEEE JSAC, 2024. [Link](https://doi.org/10.1109/JSAC.2023.3336191)
+  - *Transfer learning for DRL acceleration*
+
+### 2022
+
+- Zhou H, et al. **Learning From Peers: Deep Transfer Reinforcement Learning for Joint Radio and Cache Resource Allocation**. IEEE TCCN, 2022. [Link](https://doi.org/10.1109/TCCN.2022.3204572)
+  - *Deep transfer RL*
+
+### 2021
+
+- Nagib AM, et al. **Transfer Learning-Based Accelerated Deep Reinforcement Learning for 5G RAN Slicing**. LCN 2021. [Link](https://doi.org/10.1109/LCN52139.2021.9524965)
+  - *Transfer learning for DRL*
+
+---
+
+## LLM & Foundation Models
+
+### 2025
+
+- Lotfi F, et al. **ORAN-GUIDE: RAG-Driven Prompt Learning for LLM-Augmented Reinforcement Learning in O-RAN Network Slicing**. arXiv 2025. [Link](https://arxiv.org/abs/2506.00576)
+  - *LLM + RAG + RL for slicing*
+
+- Lotfi F, et al. **LLM-Augmented Deep Reinforcement Learning for Dynamic O-RAN Network Slicing**. ICC 2025. [Link](https://doi.org/10.1109/ICC52391.2025.11161572)
+  - *LLM + DRL for slicing*
+
+### 2026
+
+- Conger N, et al. **How to Discover Knowledge for FutureG: Contextual RAG and LLM Prompting for O-RAN**. arXiv 2026. [Link](https://arxiv.org/)
+  - *LLM + RAG for O-RAN knowledge*
+
+---
+
 ## ML for Security
 
 ### 2025
@@ -123,26 +199,20 @@ A curated collection of AI/ML research papers for O-RAN. Only papers with explic
 
 ---
 
-## Transfer Learning
-
-### 2024
-
-- Nagib AM, et al. **Safe and Accelerated Deep Reinforcement Learning-Based O-RAN Slicing: A Hybrid Transfer Learning Approach**. IEEE JSAC, 2024. [Link](https://doi.org/10.1109/JSAC.2023.3336191)
-  - *Transfer learning for DRL acceleration*
-
----
-
-## LLM & Foundation Models
+## Diffusion Models & Digital Twin
 
 ### 2025
 
-- Lotfi F, et al. **ORAN-GUIDE: RAG-Driven Prompt Learning for LLM-Augmented Reinforcement Learning in O-RAN Network Slicing**. arXiv 2025. [Link](https://arxiv.org/abs/2506.00576)
-  - *LLM + RAG + RL for slicing*
+- Xiong S, et al. **Diffusion Model and Digital Twin Enhanced Deep Reinforcement Learning for Radio Resource Management in RAN Slicing**. WCNC 2025. [Link](https://doi.org/10.1109/WCNC61545.2025.10978657)
+  - *Diffusion model + digital twin + DRL*
 
-### 2026
+- Soleymani SA, et al. **Detecting and Mitigating Adversarial Machine Learning in Open RAN Using Digital Twin**. IEEE WCL, 2025. [Link](https://doi.org/10.1109/LWC.2025.3609661)
+  - *Digital twin for adversarial ML defense*
 
-- Conger N, et al. **How to Discover Knowledge for FutureG: Contextual RAG and LLM Prompting for O-RAN**. arXiv 2026. [Link](https://arxiv.org/)
-  - *LLM + RAG for O-RAN knowledge*
+### 2024
+
+- Tao Y, et al. **O-RAN-Based Digital Twin Function Virtualization: An Asynchronous Hierarchical Reinforcement Learning Approach**. IEEE TGCN, 2024. [Link](https://ieeexplore.ieee.org/)
+  - *Hierarchical RL + digital twin*
 
 ---
 
@@ -150,15 +220,16 @@ A curated collection of AI/ML research papers for O-RAN. Only papers with explic
 
 | Method | Count | Key Applications |
 |--------|-------|------------------|
-| Deep RL | 10+ | Slicing, resource allocation, QoS |
+| Deep RL | 18+ | Slicing, resource allocation, QoS |
+| Transfer Learning | 5 | DRL acceleration, domain adaptation |
 | GNN | 4 | Mobility, connection management, CU selection |
-| Transfer Learning | 3 | DRL acceleration, domain adaptation |
-| LLM/RAG | 2 | Knowledge discovery, prompt learning |
-| Explainable AI | 1 | xApp conflict evaluation |
-| Federated Learning | 1 | Privacy-preserving |
+| LLM/RAG | 3 | Knowledge discovery, prompt learning |
 | Multi-Agent RL | 2 | Hierarchical optimization |
+| Diffusion Models | 1 | Resource management |
+| Digital Twin | 3 | DRL enhancement, security |
+| Explainable AI | 1 | xApp conflict evaluation |
 
 ---
 
-**Papers: 25+ (AI/ML focused)**
+**Papers: 40+ (AI/ML focused)**
 **Last Updated**: February 2026
