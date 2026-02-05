@@ -1,5 +1,8 @@
 <div align="center">
 
+<!-- DYNAMIC BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:11998e,100:38ef7d&height=220&section=header&text=Awesome%20AI%20for%20O-RAN&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=📡%20The%20ultimate%20AI/ML%20paper%20collection%20for%20Open%20RAN&descSize=18&descAlignY=55" width="100%"/>
+
 # 📡 Awesome AI for O-RAN
 
 <p align="center">
