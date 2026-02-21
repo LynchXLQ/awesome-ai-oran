@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/📅_Updated-Daily-00C853?style=flat-square" alt="Daily Updated">
-  <img src="https://img.shields.io/badge/Papers-75+-blue?style=flat-square&logo=google-scholar" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-76+-blue?style=flat-square&logo=google-scholar" alt="Papers">
   <img src="https://img.shields.io/github/stars/LynchXLQ/awesome-ai-oran?style=flat-square&logo=github&color=yellow" alt="Stars">
   <img src="https://img.shields.io/github/forks/LynchXLQ/awesome-ai-oran?style=flat-square&logo=github" alt="Forks">
   <img src="https://img.shields.io/github/last-commit/LynchXLQ/awesome-ai-oran?style=flat-square&color=purple" alt="Last Commit">
@@ -199,6 +199,7 @@
 
 | Title | Year | Venue | Links |
 |-------|------|-------|-------|
+| **EExApp: GNN-Based Reinforcement Learning for Radio Unit Energy Optimization in 5G O-RAN** | 2026 | **IEEE INFOCOM** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.09206) |
 | QoS-Aware Dynamic CU Selection with Graph-Based RL | 2025 | IEEE CNSM | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.23919/CNSM67658.2025.11297515) |
 | GNN for O-RAN Mobility Management: Link Prediction Approach | 2025 | IEEE VTM | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://ieeexplore.ieee.org/document/11241210/) |
 | Connection Management xAPP: GNN and RL Approach | 2021 | IEEE ICMLA | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/ICMLA52953.2021.00154) |
