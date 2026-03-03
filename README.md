@@ -237,6 +237,7 @@
 
 | Title | Year | Venue | AI Method | Links |
 |-------|------|-------|-----------|-------|
+| **IntAgent: NWDAF-Based Intent LLM Agent Towards Advanced Next Generation Networks** | 2026 | arXiv | **LLM + NWDAF + MCP** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2601.13114) |
 | **Toward Autonomous O-RAN: A Multi-Scale Agentic AI Framework** | 2026 | **IEEE Networks** | **LLM + SLM + WPFM** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.14117) |
 | Efficient Self-Learning and Model Versioning for AI-native O-RAN Edge | 2026 | arXiv | **Self-Learning** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2601.17534) |
 | ORAN-GUIDE: RAG-Driven Prompt Learning for LLM-Augmented RL | 2025 | arXiv | **RAG + LLM + RL** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2506.00576) |
