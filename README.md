@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/📅_Updated-Daily-00C853?style=flat-square" alt="Daily Updated">
-  <img src="https://img.shields.io/badge/Papers-76+-blue?style=flat-square&logo=google-scholar" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-80+-blue?style=flat-square&logo=google-scholar" alt="Papers">
   <img src="https://img.shields.io/github/stars/LynchXLQ/awesome-ai-oran?style=flat-square&logo=github&color=yellow" alt="Stars">
   <img src="https://img.shields.io/github/forks/LynchXLQ/awesome-ai-oran?style=flat-square&logo=github" alt="Forks">
   <img src="https://img.shields.io/github/last-commit/LynchXLQ/awesome-ai-oran?style=flat-square&color=purple" alt="Last Commit">
@@ -142,6 +142,7 @@
 
 | Title | Venue | AI Method | Links |
 |-------|-------|-----------|-------|
+| **Selecting Offline Reinforcement Learning Algorithms for Stochastic Network Control** | **NOMS 2026** | **Offline RL** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.03932) |
 | Joint Sleep Mode Activation and Load Balancing with Dynamic Cell Load: A Combinatorial Bandit Approach | arXiv | **Bandit** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.04808) |
 | SIA: Symbolic Interpretability for Anticipatory Deep Reinforcement Learning in Network Control | arXiv | **Explainable DRL** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2601.22044) |
 | Immersive Volumetric Video Playback: Near-RT Resource Allocation and O-RAN-based Implementation | arXiv | **Near-RT RA** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2601.20625) |
@@ -161,6 +162,7 @@
 | DRL Based xApp for RAN Slice Management Using OpenAirInterface | IEEE PIMRC | **DRL + xApp** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/PIMRC62392.2025.11275500) |
 | Energy-Saving in 5G Open RAN with Deep Q-Learning Sleep Mode Control | IEEE PIMRC | **DQL + Energy** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/PIMRC62392.2025.11274578) |
 | Meta RL Approach for Adaptive Resource Optimization in O-RAN | IEEE WCNC | **Meta RL** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/WCNC61545.2025.10978365) |
+| Meta Hierarchical Reinforcement Learning for Scalable Resource Management in O-RAN | arXiv | **Meta HRL** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2512.13715) |
 
 </details>
 
@@ -237,8 +239,10 @@
 
 | Title | Year | Venue | AI Method | Links |
 |-------|------|-------|-----------|-------|
+| **Agentic AI-RAN: Enabling Intent-Driven, Explainable and Self-Evolving Open RAN Intelligence** | 2026 | arXiv | **Agentic AI + Plan-Act-Observe** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.24115) |
 | **IntAgent: NWDAF-Based Intent LLM Agent Towards Advanced Next Generation Networks** | 2026 | arXiv | **LLM + NWDAF + MCP** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2601.13114) |
 | **Toward Autonomous O-RAN: A Multi-Scale Agentic AI Framework** | 2026 | **IEEE Networks** | **LLM + SLM + WPFM** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.14117) |
+| How to Discover Knowledge for FutureG: Contextual RAG and LLM Prompting for O-RAN | 2026 | arXiv | **Contextual RAG + LLM** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2601.02382) |
 | Efficient Self-Learning and Model Versioning for AI-native O-RAN Edge | 2026 | arXiv | **Self-Learning** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2601.17534) |
 | ORAN-GUIDE: RAG-Driven Prompt Learning for LLM-Augmented RL | 2025 | arXiv | **RAG + LLM + RL** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2506.00576) |
 | LLM-Augmented DRL for Dynamic O-RAN Network Slicing | 2025 | IEEE ICC | **LLM + DRL** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/ICC52391.2025.11161572) |
