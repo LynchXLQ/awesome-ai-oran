@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/📅_Updated-Daily-00C853?style=flat-square" alt="Daily Updated">
-  <img src="https://img.shields.io/badge/Papers-80+-blue?style=flat-square&logo=google-scholar" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-85+-blue?style=flat-square&logo=google-scholar" alt="Papers">
   <img src="https://img.shields.io/github/stars/LynchXLQ/awesome-ai-oran?style=flat-square&logo=github&color=yellow" alt="Stars">
   <img src="https://img.shields.io/github/forks/LynchXLQ/awesome-ai-oran?style=flat-square&logo=github" alt="Forks">
   <img src="https://img.shields.io/github/last-commit/LynchXLQ/awesome-ai-oran?style=flat-square&color=purple" alt="Last Commit">
@@ -142,6 +142,10 @@
 
 | Title | Venue | AI Method | Links |
 |-------|-------|-----------|-------|
+| **Agentic AI for Intent-driven Optimization in Cell-free O-RAN** | arXiv | **Agentic AI + CF-mMIMO** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.22539) |
+| **Interpretable Attention-Based Multi-Agent PPO for Latency Spike Resolution in 6G RAN Slicing** | arXiv | **Explainable MAPPO** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.11076) |
+| **inRAN: Interpretable Online Bayesian Learning for Network Automation in Open RAN** | arXiv | **Bayesian Online Learning** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2601.03219) |
+| **Demo: Enabling Deep Reinforcement Learning Research for Energy Saving in Open RAN** | arXiv | **DRL + Gymnasium** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2601.02240) |
 | **Selecting Offline Reinforcement Learning Algorithms for Stochastic Network Control** | **NOMS 2026** | **Offline RL** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.03932) |
 | Joint Sleep Mode Activation and Load Balancing with Dynamic Cell Load: A Combinatorial Bandit Approach | arXiv | **Bandit** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.04808) |
 | SIA: Symbolic Interpretability for Anticipatory Deep Reinforcement Learning in Network Control | arXiv | **Explainable DRL** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2601.22044) |
@@ -239,6 +243,7 @@
 
 | Title | Year | Venue | AI Method | Links |
 |-------|------|-------|-----------|-------|
+| **BRAIN: Bayesian Reasoning via Active Inference for Agentic and Embodied Intelligence in Mobile Networks** | 2026 | arXiv | **Active Inference + Agentic AI** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.14033) |
 | **Agentic AI-RAN: Enabling Intent-Driven, Explainable and Self-Evolving Open RAN Intelligence** | 2026 | arXiv | **Agentic AI + Plan-Act-Observe** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.24115) |
 | **IntAgent: NWDAF-Based Intent LLM Agent Towards Advanced Next Generation Networks** | 2026 | arXiv | **LLM + NWDAF + MCP** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2601.13114) |
 | **Toward Autonomous O-RAN: A Multi-Scale Agentic AI Framework** | 2026 | **IEEE Networks** | **LLM + SLM + WPFM** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.14117) |
