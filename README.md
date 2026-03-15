@@ -99,6 +99,7 @@
 
 | Title | Venue | AI Method | Links |
 |-------|-------|-----------|-------|
+| Toward Native ISAC Support in O-RAN Architectures for 6G | arXiv | **ISAC + Sensing dApp/xApp** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.03607) |
 | xDevSM: An Open-Source Framework for Portable, AI-Ready xApps Across Heterogeneous O-RAN Deployments | arXiv | **AI Framework** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.03821) |
 | MANATEE: A DevOps Platform for xApp Lifecycle Management and Testing in Open RAN | arXiv | **DevOps + ML** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2601.14009) |
 | Interoperable rApp/xApp Control over O-RAN for Mobility-aware Dynamic Spectrum Allocation | arXiv | **rApp/xApp** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2601.13769) |
@@ -243,6 +244,8 @@
 
 | Title | Year | Venue | AI Method | Links |
 |-------|------|-------|-----------|-------|
+| **ORION: Intent-Aware Orchestration in Open RAN for SLA-Driven Network Management** | 2026 | arXiv | **LLM + MCP Intent** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.03667) |
+| **How Small Can 6G Reason? Scaling Tiny Language Models for AI-Native Networks** | 2026 | arXiv | **Tiny LM + 6G-Bench** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.02156) |
 | **BRAIN: Bayesian Reasoning via Active Inference for Agentic and Embodied Intelligence in Mobile Networks** | 2026 | arXiv | **Active Inference + Agentic AI** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.14033) |
 | **Agentic AI-RAN: Enabling Intent-Driven, Explainable and Self-Evolving Open RAN Intelligence** | 2026 | arXiv | **Agentic AI + Plan-Act-Observe** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.24115) |
 | **IntAgent: NWDAF-Based Intent LLM Agent Towards Advanced Next Generation Networks** | 2026 | arXiv | **LLM + NWDAF + MCP** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2601.13114) |
