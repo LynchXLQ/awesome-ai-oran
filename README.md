@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/📅_Updated-Daily-00C853?style=flat-square" alt="Daily Updated">
-  <img src="https://img.shields.io/badge/Papers-85+-blue?style=flat-square&logo=google-scholar" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-88+-blue?style=flat-square&logo=google-scholar" alt="Papers">
   <img src="https://img.shields.io/github/stars/LynchXLQ/awesome-ai-oran?style=flat-square&logo=github&color=yellow" alt="Stars">
   <img src="https://img.shields.io/github/forks/LynchXLQ/awesome-ai-oran?style=flat-square&logo=github" alt="Forks">
   <img src="https://img.shields.io/github/last-commit/LynchXLQ/awesome-ai-oran?style=flat-square&color=purple" alt="Last Commit">
@@ -244,6 +244,8 @@
 
 | Title | Year | Venue | AI Method | Links |
 |-------|------|-------|-----------|-------|
+| **Multi-Agentic AI for Conflict-Aware rApp Policy Orchestration in Open RAN** | 2026 | arXiv | **Multi-Agent LLM + RAG** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.07375) |
+| **SLA-Aware Distributed LLM Inference Across Device-RAN-Cloud** | 2026 | **INFOCOM Workshops** | **LLM + AI-RAN Testbed** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.23722) |
 | **ORION: Intent-Aware Orchestration in Open RAN for SLA-Driven Network Management** | 2026 | arXiv | **LLM + MCP Intent** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.03667) |
 | **How Small Can 6G Reason? Scaling Tiny Language Models for AI-Native Networks** | 2026 | arXiv | **Tiny LM + 6G-Bench** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.02156) |
 | **BRAIN: Bayesian Reasoning via Active Inference for Agentic and Embodied Intelligence in Mobile Networks** | 2026 | arXiv | **Active Inference + Agentic AI** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.14033) |
@@ -332,6 +334,12 @@
 </td>
 </tr>
 </table>
+
+### 📝 Measurement & Profiling Papers
+
+| Title | Year | Venue | AI Method | Links |
+|-------|------|-------|-----------|-------|
+| **TENORAN: Automating Fine-grained Energy Efficiency Profiling in Open RAN Systems** | 2026 | arXiv | **Automated Profiling** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.13085) |
 
 ### 🧪 Research Testbeds
 
