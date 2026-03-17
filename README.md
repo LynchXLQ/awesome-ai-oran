@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/📅_Updated-Daily-00C853?style=flat-square" alt="Daily Updated">
-  <img src="https://img.shields.io/badge/Papers-88+-blue?style=flat-square&logo=google-scholar" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-90+-blue?style=flat-square&logo=google-scholar" alt="Papers">
   <img src="https://img.shields.io/github/stars/LynchXLQ/awesome-ai-oran?style=flat-square&logo=github&color=yellow" alt="Stars">
   <img src="https://img.shields.io/github/forks/LynchXLQ/awesome-ai-oran?style=flat-square&logo=github" alt="Forks">
   <img src="https://img.shields.io/github/last-commit/LynchXLQ/awesome-ai-oran?style=flat-square&color=purple" alt="Last Commit">
@@ -143,6 +143,7 @@
 
 | Title | Venue | AI Method | Links |
 |-------|-------|-----------|-------|
+| **SliceMapper: Intelligent Mapping of O-CU and O-DU onto O-Cloud Sites in 6G O-RAN** | arXiv | **Q-Learning + Slice Mapping** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.15242) |
 | **Agentic AI for Intent-driven Optimization in Cell-free O-RAN** | arXiv | **Agentic AI + CF-mMIMO** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.22539) |
 | **Interpretable Attention-Based Multi-Agent PPO for Latency Spike Resolution in 6G RAN Slicing** | arXiv | **Explainable MAPPO** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.11076) |
 | **inRAN: Interpretable Online Bayesian Learning for Network Automation in Open RAN** | arXiv | **Bayesian Online Learning** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2601.03219) |
@@ -244,6 +245,7 @@
 
 | Title | Year | Venue | AI Method | Links |
 |-------|------|-------|-----------|-------|
+| **LLM-Based Net Analyzer rApp for Explainable and Safe Automation in O-RAN Non-RT RIC** | 2026 | **ICC 2026 Workshop** | **LLM rApp + Human-in-Loop** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.13775) |
 | **Multi-Agentic AI for Conflict-Aware rApp Policy Orchestration in Open RAN** | 2026 | arXiv | **Multi-Agent LLM + RAG** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.07375) |
 | **SLA-Aware Distributed LLM Inference Across Device-RAN-Cloud** | 2026 | **INFOCOM Workshops** | **LLM + AI-RAN Testbed** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.23722) |
 | **ORION: Intent-Aware Orchestration in Open RAN for SLA-Driven Network Management** | 2026 | arXiv | **LLM + MCP Intent** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.03667) |
