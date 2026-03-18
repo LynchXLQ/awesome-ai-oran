@@ -99,6 +99,8 @@
 
 | Title | Venue | AI Method | Links |
 |-------|-------|-----------|-------|
+| **End-to-End O-RAN Testbed for Edge-AI-Enabled 5G/6G Connected Industrial Robotics** | arXiv | **Edge-AIaaS + O-RAN Testbed** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.13567) |
+| **Predicting Conflict Impact on Performance in O-RAN** | **INFOCOM 2026 Workshop** | **Conflict Impact Prediction** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.08685) |
 | Toward Native ISAC Support in O-RAN Architectures for 6G | arXiv | **ISAC + Sensing dApp/xApp** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.03607) |
 | xDevSM: An Open-Source Framework for Portable, AI-Ready xApps Across Heterogeneous O-RAN Deployments | arXiv | **AI Framework** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.03821) |
 | MANATEE: A DevOps Platform for xApp Lifecycle Management and Testing in Open RAN | arXiv | **DevOps + ML** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2601.14009) |
