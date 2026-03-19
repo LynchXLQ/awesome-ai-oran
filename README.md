@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/📅_Updated-Daily-00C853?style=flat-square" alt="Daily Updated">
-  <img src="https://img.shields.io/badge/Papers-90+-blue?style=flat-square&logo=google-scholar" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-91+-blue?style=flat-square&logo=google-scholar" alt="Papers">
   <img src="https://img.shields.io/github/stars/LynchXLQ/awesome-ai-oran?style=flat-square&logo=github&color=yellow" alt="Stars">
   <img src="https://img.shields.io/github/forks/LynchXLQ/awesome-ai-oran?style=flat-square&logo=github" alt="Forks">
   <img src="https://img.shields.io/github/last-commit/LynchXLQ/awesome-ai-oran?style=flat-square&color=purple" alt="Last Commit">
@@ -99,6 +99,7 @@
 
 | Title | Venue | AI Method | Links |
 |-------|-------|-----------|-------|
+| **AI-Driven Multi-Modal Adaptive Handover Control Optimization for O-RAN** | arXiv | **PPO RL + Multi-Modal rApp/xApp** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.17158) |
 | **End-to-End O-RAN Testbed for Edge-AI-Enabled 5G/6G Connected Industrial Robotics** | arXiv | **Edge-AIaaS + O-RAN Testbed** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.13567) |
 | **Predicting Conflict Impact on Performance in O-RAN** | **INFOCOM 2026 Workshop** | **Conflict Impact Prediction** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.08685) |
 | Toward Native ISAC Support in O-RAN Architectures for 6G | arXiv | **ISAC + Sensing dApp/xApp** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.03607) |
