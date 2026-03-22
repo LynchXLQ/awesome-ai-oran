@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/📅_Updated-Daily-00C853?style=flat-square" alt="Daily Updated">
-  <img src="https://img.shields.io/badge/Papers-91+-blue?style=flat-square&logo=google-scholar" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-96+-blue?style=flat-square&logo=google-scholar" alt="Papers">
   <img src="https://img.shields.io/github/stars/LynchXLQ/awesome-ai-oran?style=flat-square&logo=github&color=yellow" alt="Stars">
   <img src="https://img.shields.io/github/forks/LynchXLQ/awesome-ai-oran?style=flat-square&logo=github" alt="Forks">
   <img src="https://img.shields.io/github/last-commit/LynchXLQ/awesome-ai-oran?style=flat-square&color=purple" alt="Last Commit">
@@ -99,6 +99,7 @@
 
 | Title | Venue | AI Method | Links |
 |-------|-------|-----------|-------|
+| **A Vision-based Framework for Intelligent gNodeB Mobility Control** | arXiv | **Vision + Mobile O-RAN** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.18092) |
 | **AI-Driven Multi-Modal Adaptive Handover Control Optimization for O-RAN** | arXiv | **PPO RL + Multi-Modal rApp/xApp** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.17158) |
 | **End-to-End O-RAN Testbed for Edge-AI-Enabled 5G/6G Connected Industrial Robotics** | arXiv | **Edge-AIaaS + O-RAN Testbed** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.13567) |
 | **Predicting Conflict Impact on Performance in O-RAN** | **INFOCOM 2026 Workshop** | **Conflict Impact Prediction** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.08685) |
@@ -248,6 +249,7 @@
 
 | Title | Year | Venue | AI Method | Links |
 |-------|------|-------|-----------|-------|
+| **AutORAN: LLM-driven Natural Language Programming for Agile xApp Development** | 2026 | arXiv | **LLM + Auto xApp Gen** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.18604) |
 | **LLM-Based Net Analyzer rApp for Explainable and Safe Automation in O-RAN Non-RT RIC** | 2026 | **ICC 2026 Workshop** | **LLM rApp + Human-in-Loop** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.13775) |
 | **Multi-Agentic AI for Conflict-Aware rApp Policy Orchestration in Open RAN** | 2026 | arXiv | **Multi-Agent LLM + RAG** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.07375) |
 | **SLA-Aware Distributed LLM Inference Across Device-RAN-Cloud** | 2026 | **INFOCOM Workshops** | **LLM + AI-RAN Testbed** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.23722) |
@@ -344,6 +346,9 @@
 
 | Title | Year | Venue | AI Method | Links |
 |-------|------|-------|-----------|-------|
+| **Enabling Real-Time Programmability for RAN Functions: A Wasm-Based Approach for Robust and High-Performance dApps** | 2026 | arXiv | **Wasm + dApp** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.17880) |
+| **AtlasRAN: Modeling and Performance Evaluation of Open 5G Platforms for Ubiquitous Wireless Networks** | 2026 | arXiv | **Performance Modeling** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.14661) |
+| **Measurement-Driven O-RAN Diagnostics with Tail Latency and Scheduler Indicators** | 2026 | arXiv | **Diagnostics + Measurement** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.11023) |
 | **TENORAN: Automating Fine-grained Energy Efficiency Profiling in Open RAN Systems** | 2026 | arXiv | **Automated Profiling** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.13085) |
 
 ### 🧪 Research Testbeds
