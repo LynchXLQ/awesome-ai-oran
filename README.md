@@ -67,7 +67,8 @@
 | **ICC 2026** | IEEE Int'l Conf. on Communications | May 24-28, 2026 | Glasgow, UK | Workshop: Jan 31, 2026 | [![Website](https://img.shields.io/badge/Website-Visit-blue)](https://icc2026.ieee-icc.org/) |
 | 🇺🇸 **SIGCOMM 2026** | ACM SIGCOMM Conference | Aug 17-21, 2026 | Denver, CO, USA | Feb 6, 2026 | [![Website](https://img.shields.io/badge/Website-Visit-blue)](https://conferences.sigcomm.org/sigcomm/2026/) |
 | **ECOC 2026** | European Conf. Optical Communication | Sep 20-24, 2026 | London, UK | Mid-April 2026 | [![Website](https://img.shields.io/badge/Website-Visit-blue)](https://ecoc2026.org/) |
-| **GLOBECOM 2026** | IEEE Global Communications Conference | Dec 7-11, 2026 | Macau, China | Mar 15, 2026 | [![Website](https://img.shields.io/badge/Website-Visit-blue)](https://globecom2026.ieee-globecom.org/) |
+| 🇺🇸 **MILCOM 2026** | IEEE Military Communications Conference | Nov 2026 | Washington, DC, USA | **May 15, 2026** | [![Website](https://img.shields.io/badge/Website-Visit-blue)](https://milcom2026.ieee-milcom.org/) |
+| **GLOBECOM 2026** | IEEE Global Communications Conference | Dec 7-11, 2026 | Macau, China | **Apr 1, 2026** | [![Website](https://img.shields.io/badge/Website-Visit-blue)](https://globecom2026.ieee-globecom.org/) |
 
 > 💡 **Note:** OFC and SIGCOMM are the two major conferences in the USA for 2026! MWC Barcelona hosts the O-RAN ALLIANCE Summit on March 3, 2026.
 
@@ -285,6 +286,8 @@
 
 | Title | Year | Venue | Links |
 |-------|------|-------|-------|
+| **Kraken*: Architecting Generative, Semantic, and Goal-Oriented Network Management for 6G** | 2026 | arXiv | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.11948) |
+| **A Standards-Aligned Coordination Framework for Edge-Enhanced Collaborative Healthcare in 6G Networks** | 2026 | arXiv | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.12653) |
 | Design and Evaluation of Next-Generation Cellular Networks through Digital and Physical Open and Programmable Platforms | 2026 | arXiv | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2601.19027) |
 | Diffusion Model + Digital Twin Enhanced DRL for RAN Slicing | 2025 | IEEE WCNC | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/WCNC61545.2025.10978657) |
 | Detecting and Mitigating Adversarial ML Using Digital Twin | 2025 | IEEE WCL | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/LWC.2025.3609661) |
@@ -349,6 +352,7 @@
 | **Enabling Real-Time Programmability for RAN Functions: A Wasm-Based Approach for Robust and High-Performance dApps** | 2026 | arXiv | **Wasm + dApp** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.17880) |
 | **AtlasRAN: Modeling and Performance Evaluation of Open 5G Platforms for Ubiquitous Wireless Networks** | 2026 | arXiv | **Performance Modeling** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.14661) |
 | **Measurement-Driven O-RAN Diagnostics with Tail Latency and Scheduler Indicators** | 2026 | arXiv | **Diagnostics + Measurement** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.11023) |
+| **Energy Efficiency Testing and Modeling of a Commercial O-RAN System** | 2026 | arXiv | **Energy Modeling + Measurement** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.04435) |
 | **TENORAN: Automating Fine-grained Energy Efficiency Profiling in Open RAN Systems** | 2026 | arXiv | **Automated Profiling** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2602.13085) |
 
 ### 🧪 Research Testbeds
