@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/📅_Updated-Daily-00C853?style=flat-square" alt="Daily Updated">
-  <img src="https://img.shields.io/badge/Papers-96+-blue?style=flat-square&logo=google-scholar" alt="Papers">
+  <img src="https://img.shields.io/badge/Papers-98+-blue?style=flat-square&logo=google-scholar" alt="Papers">
   <img src="https://img.shields.io/github/stars/LynchXLQ/awesome-ai-oran?style=flat-square&logo=github&color=yellow" alt="Stars">
   <img src="https://img.shields.io/github/forks/LynchXLQ/awesome-ai-oran?style=flat-square&logo=github" alt="Forks">
   <img src="https://img.shields.io/github/last-commit/LynchXLQ/awesome-ai-oran?style=flat-square&color=purple" alt="Last Commit">
@@ -100,6 +100,7 @@
 
 | Title | Venue | AI Method | Links |
 |-------|-------|-----------|-------|
+| **AI Lifecycle-Aware Feasibility Framework for Split-RIC Orchestration in NTN O-RAN** | arXiv (sub. IEEE TNSM) | **AI Lifecycle + NTN Split-RIC** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.23252) |
 | **A Vision-based Framework for Intelligent gNodeB Mobility Control** | arXiv | **Vision + Mobile O-RAN** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.18092) |
 | **AI-Driven Multi-Modal Adaptive Handover Control Optimization for O-RAN** | arXiv | **PPO RL + Multi-Modal rApp/xApp** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.17158) |
 | **End-to-End O-RAN Testbed for Edge-AI-Enabled 5G/6G Connected Industrial Robotics** | arXiv | **Edge-AIaaS + O-RAN Testbed** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.13567) |
@@ -274,6 +275,7 @@
 
 | Title | Year | Venue | AI Method | Links |
 |-------|------|-------|-----------|-------|
+| **Security and Privacy in O-RAN for 6G: A Comprehensive Review of Threats and Mitigation** | 2026 | **IEEE COMST** | **Survey: Security + Privacy** | [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.21211) |
 | Detecting and Mitigating Adversarial ML in Open RAN Using Digital Twin | 2025 | IEEE WCL | **Adversarial ML** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/LWC.2025.3609661) |
 | Latency of ML Random Access DDoS Detection in Open RAN | 2024 | ACM MobiCom | **ML DDoS** | [![Paper](https://img.shields.io/badge/Paper-ACM-purple)](https://doi.org/10.1145/3636534.3701546) |
 | DDoS Detection and Mitigation Using d/xApp in O-RAN | 2024 | IEEE FNWF | **ML Detection** | [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://doi.org/10.1109/FNWF63303.2024.11028717) |
